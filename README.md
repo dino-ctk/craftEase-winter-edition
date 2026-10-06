@@ -1,1 +1,3 @@
 ## OPIS PROJEKTA
+
+README je NOVI
