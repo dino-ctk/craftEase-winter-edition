@@ -1,0 +1,3 @@
+- CraftEase uses dynamic role/screen routes with one shared prototype renderer because this keeps the low-fidelity navigation and screen patterns consistent.
+- Prototype role selection and form outcomes remain in-memory only because this iteration explicitly excludes authentication and persistence.
+- Public discovery lives at the root with public project-detail routes, while simulated personal state remains under `/user/$screen`, because browsing must not require an account.
